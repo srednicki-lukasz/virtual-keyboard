@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script defer src="./js/app.js"></script>
+</head>
+<body>
+    <div class="h-100 d-flex flex-column">
+        <textarea class="flex-fill p-2" autofocus></textarea>
+
+        <div class="keyboard-container container-fluid bg-secondary text-center py-2">
+            <div class="d-flex">
+                <button class="btn btn-dark btn-caps-lock text-secondary flex-fill">
+                    <i class="fas fa-chevron-up"></i>
+                </button>
+
+                <button class="btn btn-dark btn-backspace text-secondary flex-fill mx-1">
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                </button>
+
+                <button class="btn btn-dark btn-enter text-secondary flex-fill">
+                    <i class="fas fa-level-down-alt" style="transform: rotate(90deg);"></i>
+                </button>
+            </div>
+
+            <div class="d-flex mt-2">
+                <button class="btn-text flex-fill mr-1">1</button>
+                <button class="btn-text flex-fill mr-1">2</button>
+                <button class="btn-text flex-fill mr-1">3</button>
+                <button class="btn-text flex-fill mr-1">4</button>
+                <button class="btn-text flex-fill mr-1">5</button>
+                <button class="btn-text flex-fill mr-1">6</button>
+                <button class="btn-text flex-fill mr-1">7</button>
+                <button class="btn-text flex-fill mr-1">8</button>
+                <button class="btn-text flex-fill mr-1">9</button>
+                <button class="btn-text flex-fill">0</button>
+            </div>
+
+            <div class="d-flex mt-1">
+                <button class="btn-text flex-fill mr-1">q</button>
+                <button class="btn-text flex-fill mr-1">w</button>
+                <button class="btn-text flex-fill mr-1">e</button>
+                <button class="btn-text flex-fill mr-1">r</button>
+                <button class="btn-text flex-fill mr-1">t</button>
+                <button class="btn-text flex-fill mr-1">y</button>
+                <button class="btn-text flex-fill mr-1">u</button>
+                <button class="btn-text flex-fill mr-1">i</button>
+                <button class="btn-text flex-fill mr-1">o</button>
+                <button class="btn-text flex-fill">p</button>
+            </div>
+
+            <div class="d-flex mt-1">
+                <button class="btn-text flex-fill mr-1">a</button>
+                <button class="btn-text flex-fill mr-1">s</button>
+                <button class="btn-text flex-fill mr-1">d</button>
+                <button class="btn-text flex-fill mr-1">f</button>
+                <button class="btn-text flex-fill mr-1">g</button>
+                <button class="btn-text flex-fill mr-1">h</button>
+                <button class="btn-text flex-fill mr-1">j</button>
+                <button class="btn-text flex-fill mr-1">k</button>
+                <button class="btn-text flex-fill">l</button>
+            </div>
+
+            <div class="d-flex mt-1">
+                <button class="btn-text flex-fill mr-1">z</button>
+                <button class="btn-text flex-fill mr-1">x</button>
+                <button class="btn-text flex-fill mr-1">c</button>
+                <button class="btn-text flex-fill mr-1">v</button>
+                <button class="btn-text flex-fill mr-1">b</button>
+                <button class="btn-text flex-fill mr-1">n</button>
+                <button class="btn-text flex-fill">m</button>
+            </div>
+
+            <div class="d-flex mt-1">
+                <button class="btn-text flex-fill mr-1">,</button>
+                <button class="btn-text flex-fill mr-1">.</button>
+                <button class="btn-text flex-fill">?</button>
+            </div>
+
+            <div class="mt-1">
+                <button class="btn btn-dark btn-block btn-spacebar text-secondary" style="letter-spacing: 5px;"><small>SPACEBAR</small></button>
+            </div>
+        </div>
+
+        <button class="btn btn-dark btn-toggle rounded-0">
+            <i class="fas fa-chevron-down text-secondary"></i>
+        </button>
+    </div>
+</body>
+</html>
